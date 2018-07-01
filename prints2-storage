@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <!---discovery data-->   
+    <meta name="author" content="Cameron Murray">
+    
+    <meta name="keywords" content="cameron murray, photography, travel, portraits, commissions, landscape, nelson, new zealand">
+    
+    <meta name="description" content="Cameron Murray is a freelance photographer operating in Nelson New Zealand. Primarily focused on travel Cameron also captures portrait and commissioned based work. ">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" type="text/css" href="mobile.css">
+    
+    <link rel="shortcut icon" href="cm-icon.png">
+
+<!---responsive stylesheets--> 
+    
+        <link rel="stylesheet" media="screen and (max-width:640px)" href="mobile.css">
+    
+        <link rel="stylesheet" media="screen and (min-width:641px)" href="tablet.css">
+    
+        <link rel="stylesheet" media="screen and (min-width:901px) and (max-width:1600px)" href="desktop.css">
+    
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+    
+    </head>
+    <body>   
+    
+<nav class="navbar">
+<!--<img class="nav-icon" href="#">-->
+<span class="open-slide" onclick="openSlideMenu()"><a href="#" onclick="openSlideMenu()">
+        <svg width="30" height="30">
+            <path d="M0,5 30,5" stroke="#222" stroke-width="4"/>
+            <path d="M0,14 30,14" stroke="#222" stroke-width="4"/>
+            <path d="M0,23 30,23" stroke="#222" stroke-width="4"/>
+        </svg>
+      </a>
+</span>
+</nav>
+    <h1>Cameron Murray</h1> 
+
+<ul class="navbar-nav">
+<li><a href="index.html">Home</a></li>
+<li><a href="projects.html">Project</a></li>
+<li><a class="active" href="#">Print</a></li>
+<li><a href="about.html">About</a></li>
+</ul>
+        
+<div id="side-menu" class="side-nav">
+<a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+<ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="projects.html">Projects</a></li>
+    <li><a  class="active" href="#">Prints</a></li>
+    <li><a href="about.html">About</a></li>
+    </ul>
+
+</div>
+        
+<div id="main">
+<!--"display-container"-->
+    
+<div class="level-top">
+</div>     
+
+<div class="print">
+    <div class="print-border">
+    <a href="#">
+    <img src="imgs/prints/IMG_4.jpg"
+         alt="fern">  
+    </a>
+    </div>
+</div>
+    
+<div class="print">
+    <div class="print-border-portrait">
+    <a href="#">
+    <img src="imgs/prints/IMG_1.jpg"
+     alt="fern">  
+    </a>
+    </div>
+</div>
+        
+ <div class="print">
+    <div class="print-border">
+    <a href="#">
+    <img src="imgs/prints/IMG_3.jpg"
+         alt="fern">  
+    </a>
+    </div>
+</div>   
+
+<div class="print">
+    <div class="print-border-portrait">
+    <a href="#">
+    <img src="imgs/prints/IMG_2.jpg"
+         alt="fern">  
+    </a>
+    </div>
+</div>
+    
+    
+<div class="print">
+    <div class="print-border">
+    <a href="#">
+    <img src="imgs/prints/IMG_6.jpg"
+         alt="fern">  
+    </a>
+    </div>
+</div>
+
+<div class="print">
+    <div class="print-border-portrait">
+    <a href="#">
+    <img src="imgs/prints/IMG_5.jpg"
+         alt="fern">  
+    </a>
+    </div>
+</div>
+   
+<div class="print">
+    <div class="print-border">
+    <a href="#">
+    <img src="imgs/prints/IMG_8.jpg"
+         alt="fern">  
+    </a>
+    </div>
+</div>    
+    
+<div class="print">
+    <div class="print-border-portrait">
+    <a href="#">
+    <img src="imgs/prints/IMG_7.jpg"
+         alt="fern">  
+    </a>
+    </div>
+</div>
+    
+
+    
+<div class="print">
+    <div class="print-border">
+    <a href="#">
+    <img src="imgs/prints/IMG_9.jpg"
+         alt="fern">  
+    </a>
+    </div>
+</div>
+  
+    <div class="print">
+    <div class="print-border-portrait">
+    <a href="#">
+    <img src="imgs/prints/IMG_13.jpg"
+         alt="fern">  
+    </a>
+    </div>
+</div> 
+    
+<div class="print">
+    <div class="print-border">
+    <a href="#">
+    <img src="imgs/prints/IMG_10.jpg"
+         alt="fern">  
+    </a>
+    </div>
+</div>
+
+<div class="print">
+    <div class="print-border-portrait">
+    <a href="#">
+    <img class="landscape" src="imgs/prints/IMG_20.jpg"
+         alt="fern">  
+    </a>
+    </div>
+</div>
+    
+<div class="print">
+    <div class="print-border">
+    <a href="#">
+    <img src="imgs/prints/IMG_11.jpg"
+         alt="fern">  
+    </a>
+    </div>
+</div>  
+ 
+<div class="print">
+    <div class="print-border-portrait">
+    <a href="#">
+    <img class="landscape" src="imgs/prints/IMG_23.jpg"
+         alt="fern">  
+    </a>
+    </div>
+</div>
+    
+<div class="print">
+    <div class="print-border">
+    <a href="#">
+    <img src="imgs/prints/IMG_12.jpg"
+         alt="fern">  
+    </a>
+    </div>
+</div>    
+    
+    
+<div class="print">
+    <div class="print-border">
+    <a href="#">
+    <img src="imgs/prints/IMG_14.jpg"
+         alt="fern">  
+    </a>
+    </div>
+</div>
+    
+<div class="print">
+    <div class="print-border">
+    <a href="#">
+    <img src="imgs/prints/IMG_15.jpg"
+         alt="fern">  
+    </a>
+    </div>
+</div>
+    
+<div class="print">
+    <div class="print-border">
+    <a href="#">
+    <img src="imgs/prints/IMG_16.jpg"
+         alt="fern">  
+    </a>
+    </div>
+</div>
+    
+<div class="print">
+    <div class="print-border">
+    <a href="#">
+    <img src="imgs/prints/IMG_17.jpg"
+         alt="fern">  
+    </a>
+    </div>
+</div>
+    
+<div class="print">
+    <div class="print-border">
+    <a href="#">
+    <img src="imgs/prints/IMG_18.jpg"
+         alt="fern">  
+    </a>
+    </div>
+</div>
+    
+<div class="print">
+    <div class="print-border">
+    <a href="#">
+    <img src="imgs/prints/IMG_19.jpg"
+         alt="fern">  
+    </a>
+    </div>
+</div>
+
+    
+<div class="print">
+    <div class="print-border">
+    <a href="#">
+    <img src="imgs/prints/IMG_21.jpg"
+         alt="fern">  
+    </a>
+    </div>
+</div>
+    
+<div class="print">
+    <div class="print-border">
+    <a href="#">
+    <img src="imgs/prints/IMG_22.jpg"
+         alt="fern">  
+    </a>
+    </div>
+</div>
+    
+
+    
+<div class="print">
+    <div class="print-border">
+    <a href="#">
+    <img src="imgs/prints/IMG_24.jpg"
+         alt="fern">  
+    </a>
+    </div>
+</div>
+    
+<div class="print">
+    <div class="print-border">
+    <a href="#">
+    <img src="imgs/prints/IMG_25.jpg"
+         alt="fern">  
+    </a>
+    </div>
+
+</div>
+<!--<div class="prints">
+    <div class="print-border">
+    <a href="#">
+    <img src="imgs/fern.jpg"
+     alt="fern">  
+    </a>
+    </div>
+    <ul>
+    <li class="name-print">Able Tasman</li>
+    <li><p3>from $24.99</p3></li>
+    </ul>
+</div>
+    
+<div class="prints">
+    <div class="print-border">
+    <a href="#">
+    <img src="imgs/landscape.jpg"
+         alt="fern">  
+    </a>
+    </div>
+    <ul>
+    <li class="name-print">Mt Roberts</li>
+    <li><p3>from $24.99</p3></li>
+    </ul>
+</div>
+    
+<div class="prints">
+    <div class="print-border">
+    <a href="#">
+    <img src="imgs/duck.jpg"
+         alt="fern">  
+    </a>
+    </div>
+    <ul>
+    <li class="name-print">Duck</li>
+    <li><p3>from $24.99</p3></li>
+    </ul>
+</div>
+    
+<div class="prints">
+    <div class="print-border">
+    <a href="#">
+    <img src="imgs/mushrooms.jpg"
+     alt="reflection">  
+    </a>
+    </div>
+    <ul>
+    <li class="name-print">Mushrooms</li>
+    <li><p3>from $24.99</p3></li>
+    </ul>
+</div>
+    
+<div class="prints">
+    <div class="print-border">
+    <a href="#">
+    <img src="imgs/egg.jpg"
+     alt="fern">  
+    </a>
+    </div>
+    <ul>
+    <li class="name-print">Dashed hope</li>
+    <li><p3>from $24.99</p3></li>
+    </ul>
+</div>
+    
+<div class="prints">
+    <div class="print-border">
+    <a href="#">
+    <img src="imgs/swayinglight.jpg"
+         alt="fern">  
+    </a>
+    </div>
+    <ul>
+    <li class="name-print">swaying light</li>
+    <li><p3>from $24.99</p3></li>
+    </ul>
+</div>
+ 
+<div class="prints">
+    <div class="print-border">
+    <a href="#">
+    <img src="imgs/beachsun1.jpg"
+     alt="reflection">  
+    </a>
+    </div>
+    <ul>
+    <li class="name-print">Tahanui Summer</li>
+    <li><p3>from $24.99</p3></li>
+    </ul>
+</div>
+    
+<div class="prints">
+    <div class="print-border">
+    <a href="#">
+    <img src="imgs/waves.jpg"
+     alt="fern">  
+    </a>
+    </div>
+    <ul>
+    <li class="name-print">Against the current</li>
+    <li><p3>from $24.99</p3></li>
+    </ul>
+</div>
+
+ 
+<div class="prints">
+    <div class="print-border">
+    <a href="#">
+    <img src="imgs/goose.jpg"
+     alt="reflection">  
+    </a>
+    </div>
+    <ul>
+    <li class="name-print">Goose</li>
+    <li><p3>from $24.99</p3></li>
+    </ul>
+</div>-->
+      
+</div>
+        
+    <div class="social">
+    <ul>
+    
+    <li><a href="https://www.facebook.com/cam.is.a.cool.guy.said.people"><img src="social-media-facebook-circle1.png" onmouseover="this.src='social-media-facebook-circle2.png'" onmouseout="this.src='social-media-facebook-circle1.png'"  alt="facebook icon"></a></li>
+    
+    <li><a href="https://www.instagram.com/camfromthesea/?hl=en"><img src="social-media-instagram-circle1.png" onmouseover="this.src='social-media-instagram-circle2.png'" onmouseout="this.src='social-media-instagram-circle1.png'" alt="instagram icons"></a></li>
+    
+    </ul>
+    </div>        
+        
+<script>
+    function openSlideMenu(){
+      document.getElementById('side-menu').style.width = '100%';
+        
+      document.getElementById('main').style.marginLeft = '0px';
+    }
+
+    function closeSlideMenu(){
+      document.getElementById('side-menu').style.width = '0';
+      document.getElementById('main').style.marginLeft = '0';
+    }
+</script> 
+</body>
+</html>
