@@ -130,18 +130,23 @@ margin-bottom:2.5vw;
 }
 */
 /*----print2----*/
-#main2{
-    display:flex;
-    justify-content:space-between;
-    flex-wrap:wrap;
-    
-}
-
+/*
 .print2 img{width:100%;}
 
-.print2{width:30%;
+.print2 img:hover{
+     transform: scale(1.1);
+    transition: 0.8s;
+}
+
+
+.print2{width:28%;
+    
 overflow: hidden;
-align-content: center;}
+margin:1%;
+}
+
+
+
 /*----about----*/
 .profile-adjust{
 width:25vw;
