@@ -21,7 +21,7 @@
     
         <link rel="stylesheet" media="screen and (max-width:640px)" href="mobile.css">
     
-        <link rel="stylesheet" media="screen and (min-width:641px)" href="tablet.css">
+        <link rel="stylesheet" media="screen and (min-width:640px)" href="tablet.css">
     
         <link rel="stylesheet" media="screen and (min-width:901px) and (max-width:1600px)" href="desktop.css">
     
@@ -44,7 +44,7 @@
 </nav>
     <h1>Cameron Murray</h1> 
 
-<ul class="navbar-nav">
+<ul class="navbar-nav" >
 <li><a class="active" href="#">Home</a></li>
 <li><a href="projects.html">Project</a></li>
 <li><a href="prints.html">Print</a></li>
@@ -59,61 +59,31 @@
     <li><a href="prints.html">Prints</a></li>
     <li><a href="about.html">About</a></li>
     </ul>
-
-
-
-
 </div>
 
-<div id="main">
+<div id="main" class="home_slider">
 
-<!--   
-<a href="#">
-<div class="Display-Landscape">
-    <img src="imgs/fern.jpg" alt="">
-</div>
-</a>
+<div id="Index_Slide" class="I_slide">    
+    <div class="invisible-border">  
+    <img class="Slider" name="slide" width="100%" height="auto">
+    </div>
+</div> 
 
-<a href="#">
-<div class="Display-Portrait">
-    <img src="imgs/setting-light.jpg" alt="">
-</div>
-</a>
-    
-<a href="#">
-<div class="Display-Portrait">
-    <img src="imgs/setting-light.jpg" alt="">
-</div>
-</a>
-    
-<a href="#">
-<div class="Display-Landscape">
-    <img src="imgs/landscape.jpg" alt="">
-</div>
-</a>
--->
-<div class="invisible-border">  
-<img class="Slider" name="slide" width="100%" height="auto">
-</div>
- 
-
-<div class="icons-bottom"></div>
-</div>
-
-     <div class="social social-home">
+    <div class="social">
     <ul>
     
-    <li><a href="https://www.facebook.com/cam.is.a.cool.guy.said.people"><img src="social-media-facebook-circle1.png" onmouseover="this.src='social-media-facebook-circle2.png'" onmouseout="this.src='social-media-facebook-circle1.png'"  alt="facebook icon"></a></li>
+    <li><a href="https://www.facebook.com/cammurrayphoto/" target="_blank"><img src="../social-media-facebook-circle1.png" onmouseover="this.src='../social-media-facebook-circle2.png'" onmouseout="this.src='../social-media-facebook-circle1.png'"  alt="facebook icon"></a></li>
     
-    <li><a href="https://www.instagram.com/camfromthesea/?hl=en"><img src="social-media-instagram-circle1.png" onmouseover="this.src='social-media-instagram-circle2.png'" onmouseout="this.src='social-media-instagram-circle1.png'" alt="instagram icons"></a></li>
+    <li><a href="https://www.instagram.com/snappercam/" target="_blank"><img src="../social-media-instagram-circle1.png" onmouseover="this.src='../social-media-instagram-circle2.png'" onmouseout="this.src='../social-media-instagram-circle1.png'" alt="instagram icons"></a></li>
     
     </ul>
-    </div>        
-        
+    </div> 
+
+</div>        
 <script>
     var i=0; //start point
     var images=[]
-    var time=3000;
+    var time=4500;
     
     //image list
     images[0] ='imgs/first_imgs/wharf.jpg';
@@ -148,6 +118,7 @@
       document.getElementById('side-menu').style.width = '0';
       document.getElementById('main').style.marginLeft = '0';
     }
-</script> 
+</script>
+
 </body>
 </html>

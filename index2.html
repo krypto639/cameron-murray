@@ -11,21 +11,21 @@
     
     <meta name="description" content="Cameron Murray is a freelance photographer operating in Nelson New Zealand. Primarily focused on travel Cameron also captures portrait and commissioned based work. ">
         <link rel="stylesheet" href="reset.css">
-        <link rel="stylesheet" type="text/css" href="../mobile.css">
+        <link rel="stylesheet" type="text/css" href="mobile.css">
     
     <link rel="shortcut icon" href="cm-icon.png">
 
 <!---responsive stylesheets--> 
     <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" type="text/css" href="../about.html">
+    <link rel="stylesheet" type="text/css" href="mobile.css">
     
-        <link rel="stylesheet" media="screen and (max-width:640px)" href="../mobile.css">
+        <link rel="stylesheet" media="screen and (max-width:640px)" href="mobile.css">
     
-        <link rel="stylesheet" media="screen and (min-width:641px)" href="../tablet.css">
+        <link rel="stylesheet" media="screen and (min-width:641px)" href="tablet.css">
     
-        <link rel="stylesheet" media="screen and (min-width:901px) and (max-width:1600px)" href="../desktop.css">
+        <link rel="stylesheet" media="screen and (min-width:901px) and (max-width:1600px)" href="desktop.css">
     
-<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Raleway:400,600" rel="stylesheet">
 
     
     </head>
@@ -45,54 +45,65 @@
     <h1>Cameron Murray</h1> 
 
 <ul class="navbar-nav">
-<li><a href="../index.html">Home</a></li>
-<li><a  href="../projects.html">Project</a></li>
-<li><a href="../prints.html">Print</a></li>
-<li><a href="../about.html">About</a></li>
+<li><a href="index.html">Home</a></li>
+<li><a href="projects.html">Project</a></li>
+<li><a href="prints.html">Print</a></li>
+<li><a class="active" href="#">About</a></li>
 </ul>
         
 <div id="side-menu" class="side-nav">
 <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
 <ul>
-    <li><a href="../index.html">Home</a></li>
-    <li><a href="../projects.html">Projects</a></li>
-    <li><a href="../prints.html">Prints</a></li>
-    <li><a href="../about.html">About</a></li>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="projects.html">Projects</a></li>
+    <li><a href="prints.html">Prints</a></li>
+    <li><a class="active" href="#">About</a></li>
     </ul>
 
 </div>
 
-       
 <div id="main">
 
 <div class="level-top">
+</div>  
+    
+  <div id="Index_Slide">    
+    <div class="invisible-border">  
+    <img class="Slider" name="slide" width="100%" height="auto">
+    </div>
 </div> 
-
-<div class="interior_projects">
-
-<img src="../imgs/projects/Kaylee_Burnett-NMIT_Graduate_Musician/IMG_1.jpg"
-     alt="#">
+  
  
-<img src="../imgs/projects/Kaylee_Burnett-NMIT_Graduate_Musician/IMG_2.jpg"
-     alt="#">
-    
-<img src="../imgs/projects/Kaylee_Burnett-NMIT_Graduate_Musician/IMG_3.jpg"
-     alt="#">    
-    
 </div>
-
- 
-    <div class="social">
-    <ul>
-    
-    <li><a href="https://www.facebook.com/cammurrayphoto/" target="_blank"><img src="../social-media-facebook-circle1.png" onmouseover="this.src='../social-media-facebook-circle2.png'" onmouseout="this.src='../social-media-facebook-circle1.png'"  alt="facebook icon"></a></li>
-    
-    <li><a href="https://www.instagram.com/snappercam/" target="_blank"><img src="../social-media-instagram-circle1.png" onmouseover="this.src='../social-media-instagram-circle2.png'" onmouseout="this.src='../social-media-instagram-circle1.png'" alt="instagram icons"></a></li>
-    
-    </ul>
-    </div>         
         
 <script>    
+var i=0; //start point
+    var images=[]
+    var time=4500;
+    
+    //image list
+    images[0] ='imgs/first_imgs/wharf.jpg';
+    images[1] ='imgs/first_imgs/swayinglight.jpg';
+    images[2] ='imgs/first_imgs/reflection.jpg';
+    images[3] ='imgs/first_imgs/snowtop.jpg';
+    images[4] ='imgs/first_imgs/flight.jpg';
+    images[5] ='imgs/first_imgs/fern.jpg';
+    images[6] ='imgs/first_imgs/goose.jpg';
+    
+    //change image
+    function changeImg(){
+        document.slide.src=images[i];
+        
+        if(i < images.length -1){i++;
+        }else{
+        i=0;
+        }
+        
+        setTimeout("changeImg()", time);
+    }
+    
+    window.onload= changeImg;
+    
     function openSlideMenu(){
       document.getElementById('side-menu').style.width = '100%';
         
@@ -104,7 +115,5 @@
       document.getElementById('main').style.marginLeft = '0';
     }
 </script> 
-
-</div> 
 </body>
-</html>
+</html>    
