@@ -375,6 +375,7 @@ border: 1px solid green;
 
 /*-----Projects 1 wide-------*/
 
+
 .projects{
 width:96%;
 height:auto;
@@ -409,7 +410,8 @@ list-style: none;
 
 .name-projects{
     margin:2px 0;
-    font-size: 18px;
+    font-size: 16px;
+    text-align: center;
     font-weight:100;
 }
 /*----projects img reposition------*/
