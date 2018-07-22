@@ -254,17 +254,55 @@ margin:22vh 0;
     margin-bottom:5%;
     transform: translate(-50%, -50%);}
 
-/------social media.icons2--------
+/*------social--------*/
 
-.icons{
+
+.social2 ul{
+display: flex;
+justify-content: center;
+width:100vw;
+margin-top: 3vh;
+margin-left:-9%;
+
+}
+
+.social2 li{
+    list-style: none;
+    min-width:34px;
+    width:6vw;
+    max-width: 50px;
+    height:auto;
+    margin:0 7px;;
+}
+
+.social2 img{
+    width: 100%;
+}
+
+@media (min-width:701px){
+    .social2 ul{
     display: flex;
-    justify-content: space-around;
-    border:red 3px solid;
+    justify-content: center;
+    width:100vw;
+    margin-top: 3vh;
+    margin-left:-9%;
+
+    }
+
+    .social2 li{
+        list-style: none;
+        min-width:34px;
+        width:6vw;
+        max-width: 50px;
+        height:auto;
+        margin:0 7px;;
+    }
+
+    .social2 img{
+        width: 100%;
+    }
 }
 
-.icons imgs{
-    width:5%;
-}
 /*------Prints.html--------*/
 /*.prints{
 width:96%;
@@ -335,7 +373,7 @@ height:64vw;
 
 }
 
-@media (min-width:561px){
+@media (min-width:600px){
     #main2{display:flex;
     justify-content:space-between;
     flex-wrap:wrap;
@@ -510,9 +548,8 @@ list-style: none;
     font-size: 16px;
 }
 
-#about_social{
-    position: fixed;
-    align-content:flex-end;
+#about_social ul{
+padding-top: 6vh;
 }
 @media (max-width:601px){
     /*#about_social{
@@ -525,13 +562,13 @@ list-style: none;
 @media (min-width:601px){
  
 .profile-adjust{
-    width:74%;
-    margin:5% 13%;
+    width:70%;
+    margin:5% 15%;
     }
     
 .description{
-    width:74%;
-    margin: 3% 13%;
+    width:70%;
+    margin: 3% 15%;
 }
     
 }    

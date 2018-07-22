@@ -307,7 +307,7 @@ height:64vw;
 
 }
 
-@media (min-width:561px){
+@media (min-width:600px){
     #main2{display:flex;
     justify-content:space-between;
     flex-wrap:wrap;
@@ -329,8 +329,16 @@ height:64vw;
 
 /*----about----*/
 
+#about_social ul{
+margin-top:6vh;
+}
 
-@media (min-width:901px){
+@media (min-width:640px){
+    
+    
+}
+
+@media (min-width:801px){
 .profile-adjust{
     float:left;
     width:35%;
@@ -350,8 +358,57 @@ height:64vw;
 
 .description p1{
 }
+ 
+#about_social ul{
+padding-top:33.5vh;
+}
+    
+}
 
-#about_social{
-    top:90vh;
-}    
+/*-----social2------*/
+
+.social2 ul{
+display: flex;
+justify-content: center;
+width:100vw;
+margin-top: 3vh;
+margin-left:-9%;
+
+}
+
+.social2 li{
+    list-style: none;
+    min-width:34px;
+    width:6vw;
+    max-width: 50px;
+    height:auto;
+    margin:0 7px;;
+}
+
+.social2 img{
+    width: 100%;
+}
+
+@media (min-width:701px){
+    .social2 ul{
+    display: flex;
+    justify-content: center;
+    width:100vw;
+     margin-top: 3vh;
+    margin-left:-5%;
+
+    }
+
+    .social2 li{
+        list-style: none;
+        min-width:34px;
+        width:6vw;
+        max-width: 50px;
+        height:auto;
+        margin:0 7px;;
+    }
+
+    .social2 img{
+        width: 100%;
+    }
 }
