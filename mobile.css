@@ -459,6 +459,7 @@ list-style: none;
     float:left;
     width:90vw;
     margin:5% 5vw;
+    top:0;
     }
 
 .profile-adjust img{
@@ -472,12 +473,20 @@ list-style: none;
 }
 
 .description p1{
+    font-size: 16px;
 }
 
 #about_social{
     top:105vh;
 }
+@media (max-width:301px){
+    #about_social{
+    top:130vh;
+}
+ 
 
+    
+}
 @media (min-width:601px){
  
 .profile-adjust{
