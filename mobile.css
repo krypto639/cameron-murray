@@ -479,7 +479,7 @@ list-style: none;
 #about_social{
     top:105vh;
 }
-@media (max-width:451px){
+@media (max-width:501px){
     #about_social{
     top:130vh;
 }
