@@ -479,9 +479,9 @@ list-style: none;
 #about_social{
     top:105vh;
 }
-@media (max-width:501px){
+@media (max-width:601px){
     #about_social{
-    top:130vh;
+    top:150vh;
 }
  
 
