@@ -141,11 +141,11 @@ side-nav .btn-close{
 
 }
 /*-----Portrait and Landscape featured----*/
-.Display-Portrait{
+/*.Display-Portrait{
     width:26%;
     margin:2% 12%;
     height:48%;
-    transition: transform ;/*.2s*/
+    transition: transform ;/*.2s
     float:left;
     overflow: hidden;
     
@@ -176,7 +176,7 @@ side-nav .btn-close{
    transform: scale(1.2);
     transition: 0.4s;
     height:auto;
-}
+}*/
 /*----Img Carosel------*/
 .I_slide{
 margin:22vh 0; 
@@ -302,8 +302,10 @@ border: 1px solid green;
 /*------Print.html --------*/
 
 /*----print2----*/
+
 #main2{
-  margin:0; 
+width:100%;
+  margin:0px; 
 }
 
 .print2-portrait img{width:100%;}
@@ -350,7 +352,9 @@ height:64vw;
     height:19vw;
     margin:1%;
     }
+    
 }
+
 
 /*-----Projects-------*/
 
@@ -413,6 +417,36 @@ list-style: none;
     font-size: 16px;
     text-align: center;
     font-weight:100;
+}
+
+@media (min-width:700px){
+  .projects{
+    float:left;
+    width:30vw;
+    height:auto;
+    margin: 0 1.5% 0;
+    /*border: 1px solid green;*/
+    }
+    
+    .projects-border{
+        height:16.6vw; /*60vw*/
+
+    }
+
+    #P_tablet_layout .projects ul{
+    list-style: none;
+    padding-left:0;
+    margin-bottom:2vw;
+    }
+
+    #P_tablet_layout .projects ul li{
+        height:50px;
+
+    }
+
+    #P_tablet_layout .name-projects{
+        font-size: 18px*/
+    }
 }
 /*----projects img reposition------*/
 .Kaylee_Burnett{
@@ -477,7 +511,8 @@ list-style: none;
 }
 
 #about_social{
-    top:230vw;
+    position: fixed;
+    align-content:flex-end;
 }
 @media (max-width:601px){
     /*#about_social{
