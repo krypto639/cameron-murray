@@ -473,15 +473,15 @@ list-style: none;
 }
 
 .description p1{
-    font-size: 14px;
+    font-size: 16px;
 }
 
 #about_social{
-    top:105vh;
+    top:230vw;
 }
 @media (max-width:601px){
-    #about_social{
-    top:150vh;
+    /*#about_social{
+    top:150vh;*/
 }
  
 
@@ -499,8 +499,6 @@ list-style: none;
     margin: 3% 13%;
 }
     
-.description p1{
-    font-size: 18px;
 }    
     /*#about_social{
     top:88vh;*/
