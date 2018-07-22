@@ -473,7 +473,7 @@ list-style: none;
 }
 
 .description p1{
-    font-size: 16px;
+    font-size: 14px;
 }
 
 #about_social{
@@ -498,6 +498,10 @@ list-style: none;
     width:74%;
     margin: 3% 13%;
 }
+    
+.description p1{
+    font-size: 18px;
+}    
     /*#about_social{
     top:88vh;*/
     
