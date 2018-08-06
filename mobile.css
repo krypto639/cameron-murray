@@ -373,7 +373,7 @@ height:64vw;
 
 }
 
-@media (min-width:600px){
+@media (min-width:641px){
     #main2{display:flex;
     justify-content:space-between;
     flex-wrap:wrap;
